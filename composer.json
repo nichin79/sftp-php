@@ -1,0 +1,20 @@
+{
+  "name": "nichin79/sftp-php",
+  "description": "Simple class for connecting to SFTP server via PHP",
+  "type": "library",
+  "authors": [
+      {
+          "name": "Nicklas H",
+          "email": "nicklas@imagineit.nu"
+      }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Nichin79\\Sftp\\": "src/"
+    }
+  },
+  "require": {
+    "ext-ssh2": "*"
+  }
+}
